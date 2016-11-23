@@ -3,6 +3,8 @@ Versão Final do projeto de compilador para disciplina de Construção de Compil
 
 # Compilador_FINAL
 Para rodar o executavel é necessário possuir a máquina virtual Java instalada no dispositivo.
+Para executar pelo prompt: java -jar "DIRETORIO DO EXECUTAVEL\Compilador.jar"
+
 Ultima parte da implementação de um Compilador simples. Inclusão do analisador semantico e gerador de codigo.
 
 Centro Universitário de Brasília - UniCEUB
@@ -26,34 +28,11 @@ O compilador é baseado em Java e analisa if, while, for, try, catch, finally qu
 
 O código abaixo é um exemplo correto que usa todas as funções do analisador, sinta-se à vontade para fazer modificações com erros propositais para testar o analisador sintático.
 
-float a=2;
-int x=0;        
-if (a == 2) {
-        } else {
-        }
-        try {
-            while (true) {
-                x = 1;
-                a = 2;
-            }
-            if (false) {
-                try {
-                    a = 2;
-                } catch (Exception a) {
-                    for(x=10; x<50;x--){
-                        if(x>10){}
-                    }
-                } finally {
-                    for (int i = 0; i < 10; i++) {
-
-                    }
-                }
-            }
-        } catch (Exception a) {
-            if (x < 2) {
-                x = 2;
-            }
-        }
+int x = 2;
+double z = 0;
+if (x == 2) {
+        z = 3;
+}
 
 
 # FUNCIONAMENTO
